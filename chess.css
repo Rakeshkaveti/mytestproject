@@ -1,0 +1,43 @@
+h1 {
+
+    
+    color:rgb(0, 248, 252);
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+body{
+    
+    background-color: rgb(83, 101, 50);
+}
+
+.chessboard{
+    width:560px;
+    height:560px;
+    margin:20px;
+    border: 15px solid rgb(148, 228, 148);
+    position:absolute;
+    left:30%;
+    top:10%;
+}
+
+.black{
+
+    width:70px;
+    height:70px;
+    float: left;
+    background-color: rgb(108, 101, 101);
+    font-size:50px;
+    text-align: center;
+}
+
+.white{
+
+    width:70px;
+    height:70px;
+    float: left;
+    background-color: white;
+    font-size:50px;
+    text-align: center;
+}

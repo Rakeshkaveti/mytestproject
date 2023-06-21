@@ -1,0 +1,109 @@
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marquee {
+
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(44, 171, 239);
+    font-size: xx-large;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 242, 8);       
+    border-right-style: solid;        
+    border-left-style: solid;
+    display: inline;
+    padding-left: 05px;
+    padding-right: 07px;
+}
+
+
+    #idtag {
+
+        border-style: dotted;
+        width: 1300px;
+        border-radius: 5px;
+        margin: 50px 10px 70px 10px;
+        text-align: center;
+        border-color: rgb(14, 178, 203);
+        color:rgb(226, 9, 241);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        border-bottom-color: aliceblue;
+        margin-left: 80px;
+        padding: 10px 10px 10px 10px;
+        border-width: 3px;
+
+    }
+
+   .classtag {
+     border-style: inset;
+     width: 1300px;
+     border-radius: 5px;
+     margin: 10px 10px 70px 10px;
+     text-align: center;
+     border-color: rgb(14, 178, 203);
+     color:rgb(226, 9, 241);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+     border-bottom-color: rgb(226, 88, 199);
+     margin-left: 80px;
+     padding: 10px 10px 10px 10px;
+     border-width: 5px;
+     
+    }
+
+      
+
+    #idtag2 {
+      border-style: groove;
+      width: 1300px;
+      border-radius: 5px;
+      margin: 10px 10px 70px 10px;
+      text-align: center;
+      border-color: rgb(14, 178, 203);
+      color:rgb(226, 9, 241);
+      font-family:'Courier New', Courier, monospace ;
+      border-bottom-color: rgb(165, 168, 170);
+      border-top-color: chocolate;
+      margin-left: 80px;
+      padding: 10px 10px 10px 10px;
+      border-width: 5px;
+    }
+
+   .classtag2 {
+   border-style: dashed;
+   width: 1300px;
+   border-radius: 5px;
+   margin: 10px 10px 70px 10px;
+   margin-left: 80px;
+   text-align: center;
+   border-color: rgb(14, 178, 203);
+   color:rgb(226, 9, 241);  
+   font-family:Verdana, Geneva, Tahoma, sans-serif; 
+   border-bottom-color: rgb(215, 239, 159);
+   padding: 10px 10px 10px 10px;
+   border-width: 5px;
+   }
+  
+   a:link {
+color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: white;
+}

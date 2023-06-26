@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(2, 20, 33, 0.384);
+}
+
+h1 {
+    color:rgb(235, 50, 173);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container {
+    margin: 100px 85px;
+    display:flex;
+    flex-direction:row;
+    
+    }
+    
+    .img{
+    margin:10px;
+    transition: 2s;
+   
+    }
+    
+    .img2{
+    margin:10px;
+    transition: 2s;
+   
+    }
+
+    .img3{
+    margin:10px;
+    transition: 2s;
+    transition-delay: 2s;
+    
+    }
+
+    .img4{
+    margin:10px;
+    transition: 2s;
+    
+    }
+
+    .img:hover {
+    
+    transform: scale(1.5);
+
+    }
+
+    .img2:hover {
+    
+    transform: scale(1.5);
+    }
+
+    .img3:hover {
+    
+    transform: scale(1.5);
+            }
+
+    .img4:hover {
+    
+    transform: scale(1.5);
+    }

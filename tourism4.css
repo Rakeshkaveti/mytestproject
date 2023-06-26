@@ -99,13 +99,16 @@ p {
     height: 400px; 
     background: url(https://img.traveltriangle.com/blog/wp-content/uploads/2020/03/Chennai-Admire-The-Colonial-Architecture_26th-Mar.jpg);
     float: left;
-    animation-name: img2;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
     border: 5px solid rgb(130, 130, 185);
     border-radius: 5%;
 
 }
+
+.img2:hover{
+    animation-name: img2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
 
 @keyframes img2{
 
@@ -132,13 +135,16 @@ p {
     height: 500px; 
     background: url(https://images.unsplash.com/flagged/photo-1592544858330-7ac10a0468e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     float: right;
-    animation-name: img3;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
     border: 5px solid rgb(130, 130, 185);
     border-radius: 5%;
 
 }
+
+.img3:hover{
+    animation-name: img3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
 
 @keyframes img3{
 

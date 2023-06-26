@@ -1,0 +1,201 @@
+body{
+
+    background-color: rgb(73, 70, 70);
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+    background: linear-gradient(to left, rgba(26, 231, 186, 0.688),rgba(231, 10, 102, 0.403),rgb(6, 213, 6),rgb(178, 180, 14));
+    color:transparent;
+    -webkit-background-clip: text;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color:rgb(10, 206, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgba(19, 229, 184, 0.688),rgba(231, 10, 102, 0.403),rgb(6, 213, 6),rgb(178, 180, 14), rgb(49, 129, 95));
+    color:transparent;
+    -webkit-background-clip: text;  
+}
+    
+div {
+    color:rgb(238, 187, 110);   
+    text-align: justify;
+    word-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-indent: 50px;
+}
+
+@media screen and (min-width: 200px) {
+    .img {
+      width: 320px;
+      height: 230px;
+    }
+  
+    .img2 {
+      width: 400px;
+      height: 270px;
+    }
+  
+    .img3 {
+      width: 480px;
+      height: 350px;
+    }
+  
+    .img4 {
+      width: 400px;
+      height: 270px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    
+    .media {
+      width: 480px;
+      height: 800px;
+    }
+  }
+
+.img {
+    
+    width: 480px;
+    height: 350px; 
+    background: url(https://assets-news.housing.com/news/wp-content/uploads/2022/08/18071328/Andhra-Pradesh-3.png);
+    float: right;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 5px solid rgb(130, 130, 185);
+    border-radius: 5%;
+}
+
+@keyframes img {
+
+    25% {
+        background: url(https://assets-news.housing.com/news/wp-content/uploads/2022/08/18071328/Andhra-Pradesh-3.png);
+    }
+    
+    50% {
+        background: url(https://assets-news.housing.com/news/wp-content/uploads/2022/08/18071321/Andhra-Pradesh-2.png);
+    }
+
+    75% {
+        background: url(https://assets-news.housing.com/news/wp-content/uploads/2022/08/18071515/Andhra-Pradesh-14.png);
+    }
+
+    100% {
+        background: url(https://assets-news.housing.com/news/wp-content/uploads/2022/08/18071507/Andhra-Pradesh-12.png);
+    }
+}
+
+.img2 {
+
+    width: 600px;
+    height: 400px; 
+    background: url(https://img.traveltriangle.com/blog/wp-content/uploads/2020/03/Chennai-Admire-The-Colonial-Architecture_26th-Mar.jpg);
+    float: left;
+    animation-name: img2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 5px solid rgb(130, 130, 185);
+    border-radius: 5%;
+
+}
+
+@keyframes img2{
+
+    25% {
+        background: url(https://img.traveltriangle.com/blog/wp-content/uploads/2020/03/Chennai-Admire-The-Colonial-Architecture_26th-Mar.jpg);
+    }
+
+    50% {
+        background: url(https://thumbs.dreamstime.com/b/french-quarter-pondicherry-french-quarter-pondicherry-india-132598218.jpg?w=992);
+    }
+
+    75% {
+        background: url(https://c1.wallpaperflare.com/preview/187/380/39/hogenakkal-waterfalls-waterfalls-near-bangalore-hogenakkal-water.jpg);
+    }
+
+    100% {
+        background: url(https://assets.traveltriangle.com/blog/wp-content/uploads/2018/05/acj-1405-dhanushkodi-ghost-town-7.jpg);  
+    }
+}
+
+.img3 {
+
+    width: 700px;
+    height: 500px; 
+    background: url(https://images.unsplash.com/flagged/photo-1592544858330-7ac10a0468e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    float: right;
+    animation-name: img3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 5px solid rgb(130, 130, 185);
+    border-radius: 5%;
+
+}
+
+@keyframes img3{
+
+    25%{
+
+        background: url(https://images.unsplash.com/flagged/photo-1592544858330-7ac10a0468e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    }
+
+    50% {
+        
+        background: url(https://cdn.pixabay.com/photo/2021/01/31/06/17/mysore-palace-5965964_1280.jpg);
+    }
+
+    75%{
+
+        background: url(https://plus.unsplash.com/premium_photo-1661915849493-aba3cb23db5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    }
+
+    100%{
+
+        background: url(https://images.unsplash.com/photo-1600112356915-089abb8fc71a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1294&q=80);
+    }
+}
+
+
+.img4{
+
+    width: 600px;
+    height: 400px; 
+    background: url(https://www.ekeralatourism.net/wp-content/uploads/2018/03/Alleppey.jpg);
+    float: left;
+    animation-name: img4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 5px solid rgb(130, 130, 185);
+    border-radius: 5%;
+}
+
+@keyframes img4{
+
+    25%{
+
+        background: url(https://www.ekeralatourism.net/wp-content/uploads/2018/03/Alleppey.jpg);
+    }
+
+    50% {
+        
+        background: url(https://www.ekeralatourism.net/wp-content/uploads/2018/03/Wayanad.jpg);
+    }
+
+    75%{
+
+        background: url(https://www.ekeralatourism.net/wp-content/uploads/2018/03/Cochin.jpg);
+    }
+
+    100%{
+
+        background: url(https://www.ekeralatourism.net/wp-content/uploads/2015/12/munnar-1.png);
+    }
+}

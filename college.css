@@ -1,0 +1,113 @@
+    body {
+        background-image: url('/education3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center top;
+        
+    }
+
+    .hero-section {
+        margin-top: 100px;
+        color: rgb(6, 6, 6);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        text-align: center;
+      }
+
+    .features-section{
+        margin-top: 200px;
+        color: rgb(246, 246, 2);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);    
+    }
+
+    .testimonial-section{
+        margin-top: 20px;
+        color: rgba(238, 76, 6, 0.893);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .foot{
+        color:white
+    }
+    
+    .courses-section{
+
+        margin-top: 250px;
+    }
+    
+    .crs{
+        margin-top: 100px;
+    }
+
+    #crs{
+        text-align: center;
+        color: rgb(208, 8, 230);
+    }
+
+    .research-section{
+        margin-top: 100px;
+    }
+
+    #html{
+        color: rgb(218, 14, 177);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+       
+    }
+
+    .html{
+       color:rgba(1, 236, 240, 0.971);
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    
+    }
+
+    #css{
+        color: rgb(218, 14, 177);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+       
+    }
+
+    .css{
+        color:rgba(1, 236, 240, 0.971);
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+    #javascript{
+        color: rgb(218, 14, 177);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      
+    }
+
+    .javascript{
+        color:rgba(1, 236, 240, 0.971);
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+    #contact{
+        margin-top: 100px;
+        margin-left: 80px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    #contact h2,h3{
+        color: aliceblue;
+    }
+
+    .p{
+        color: aquamarine;
+    }
+
+    #registration{
+
+        margin-top: 100px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s ease;
+      }
+      
+      .social-icons img:hover {
+        transform: scale(1.2);
+      }
+
+  

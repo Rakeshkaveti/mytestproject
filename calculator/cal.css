@@ -1,0 +1,52 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    
+    position:absolute;
+    top:50px;
+    left:42%;
+    color:cadetblue;
+
+}
+
+.calculator {
+    width: 250px;
+    margin: 150px auto;
+    border: 2px solid #f79393;
+    padding: 10px;
+    text-align: center;
+}
+
+#display {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:rgb(217, 14, 153);
+}
+
+.cals{
+
+    width:320%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color:rgb(22, 3, 230);
+}
+
+button:hover{
+    color:red;
+}
+
